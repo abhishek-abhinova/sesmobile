@@ -1,0 +1,245 @@
+{
+  "generatedAt": "2026-09-30T08:45:50.865Z",
+  "images": [
+    {
+      "slug": "wa-0011",
+      "file": "IMG-20260929-WA0011.jpg",
+      "kind": "banner",
+      "width": 1600,
+      "height": 899,
+      "path": "/images/banners/wa-0011.webp"
+    },
+    {
+      "slug": "wa-0047",
+      "file": "IMG-20260929-WA0047(1).jpg",
+      "kind": "product",
+      "width": 1536,
+      "height": 1536,
+      "path": "/images/products/wa-0047.webp",
+      "thumb": "/images/products/wa-0047-thumb.webp"
+    },
+    {
+      "slug": "wa-0078",
+      "file": "IMG-20260929-WA0078.jpg",
+      "kind": "banner",
+      "width": 1619,
+      "height": 971,
+      "path": "/images/banners/wa-0078.webp"
+    },
+    {
+      "slug": "wa-0079",
+      "file": "IMG-20260929-WA0079.jpg",
+      "kind": "product",
+      "width": 900,
+      "height": 1599,
+      "path": "/images/products/wa-0079.webp",
+      "thumb": "/images/products/wa-0079-thumb.webp"
+    },
+    {
+      "slug": "wa-0080",
+      "file": "IMG-20260929-WA0080.jpg",
+      "kind": "banner",
+      "width": 1619,
+      "height": 971,
+      "path": "/images/banners/wa-0080.webp"
+    },
+    {
+      "slug": "wa-0081",
+      "file": "IMG-20260929-WA0081.jpg",
+      "kind": "product",
+      "width": 1024,
+      "height": 1536,
+      "path": "/images/products/wa-0081.webp",
+      "thumb": "/images/products/wa-0081-thumb.webp"
+    },
+    {
+      "slug": "wa-0082",
+      "file": "IMG-20260929-WA0082.jpg",
+      "kind": "product",
+      "width": 1024,
+      "height": 1536,
+      "path": "/images/products/wa-0082.webp",
+      "thumb": "/images/products/wa-0082-thumb.webp"
+    },
+    {
+      "slug": "wa-0083",
+      "file": "IMG-20260929-WA0083.jpg",
+      "kind": "product",
+      "width": 864,
+      "height": 1224,
+      "path": "/images/products/wa-0083.webp",
+      "thumb": "/images/products/wa-0083-thumb.webp"
+    },
+    {
+      "slug": "wa-0084",
+      "file": "IMG-20260929-WA0084.jpg",
+      "kind": "product",
+      "width": 1080,
+      "height": 1267,
+      "path": "/images/products/wa-0084.webp",
+      "thumb": "/images/products/wa-0084-thumb.webp"
+    },
+    {
+      "slug": "wa-0085",
+      "file": "IMG-20260929-WA0085.jpg",
+      "kind": "product",
+      "width": 1224,
+      "height": 1500,
+      "path": "/images/products/wa-0085.webp",
+      "thumb": "/images/products/wa-0085-thumb.webp"
+    },
+    {
+      "slug": "wa-0086",
+      "file": "IMG-20260929-WA0086.jpg",
+      "kind": "product",
+      "width": 940,
+      "height": 846,
+      "path": "/images/products/wa-0086.webp",
+      "thumb": "/images/products/wa-0086-thumb.webp"
+    },
+    {
+      "slug": "wa-0087",
+      "file": "IMG-20260929-WA0087.jpg",
+      "kind": "product",
+      "width": 720,
+      "height": 720,
+      "path": "/images/products/wa-0087.webp",
+      "thumb": "/images/products/wa-0087-thumb.webp"
+    },
+    {
+      "slug": "wa-0088",
+      "file": "IMG-20260929-WA0088.jpg",
+      "kind": "product",
+      "width": 1366,
+      "height": 1366,
+      "path": "/images/products/wa-0088.webp",
+      "thumb": "/images/products/wa-0088-thumb.webp"
+    },
+    {
+      "slug": "wa-0089",
+      "file": "IMG-20260929-WA0089.jpg",
+      "kind": "product",
+      "width": 800,
+      "height": 800,
+      "path": "/images/products/wa-0089.webp",
+      "thumb": "/images/products/wa-0089-thumb.webp"
+    },
+    {
+      "slug": "wa-0090",
+      "file": "IMG-20260929-WA0090.jpg",
+      "kind": "product",
+      "width": 1280,
+      "height": 1280,
+      "path": "/images/products/wa-0090.webp",
+      "thumb": "/images/products/wa-0090-thumb.webp"
+    },
+    {
+      "slug": "wa-0091",
+      "file": "IMG-20260929-WA0091.jpg",
+      "kind": "product",
+      "width": 678,
+      "height": 678,
+      "path": "/images/products/wa-0091.webp",
+      "thumb": "/images/products/wa-0091-thumb.webp"
+    },
+    {
+      "slug": "wa-0092",
+      "file": "IMG-20260929-WA0092.jpg",
+      "kind": "product",
+      "width": 1254,
+      "height": 1254,
+      "path": "/images/products/wa-0092.webp",
+      "thumb": "/images/products/wa-0092-thumb.webp"
+    },
+    {
+      "slug": "wa-0093",
+      "file": "IMG-20260929-WA0093.jpg",
+      "kind": "product",
+      "width": 1076,
+      "height": 1280,
+      "path": "/images/products/wa-0093.webp",
+      "thumb": "/images/products/wa-0093-thumb.webp"
+    },
+    {
+      "slug": "wa-0094",
+      "file": "IMG-20260929-WA0094.jpg",
+      "kind": "product",
+      "width": 720,
+      "height": 723,
+      "path": "/images/products/wa-0094.webp",
+      "thumb": "/images/products/wa-0094-thumb.webp"
+    },
+    {
+      "slug": "wa-0095",
+      "file": "IMG-20260929-WA0095.jpg",
+      "kind": "product",
+      "width": 824,
+      "height": 1280,
+      "path": "/images/products/wa-0095.webp",
+      "thumb": "/images/products/wa-0095-thumb.webp"
+    },
+    {
+      "slug": "wa-0096",
+      "file": "IMG-20260929-WA0096.jpg",
+      "kind": "product",
+      "width": 1170,
+      "height": 1457,
+      "path": "/images/products/wa-0096.webp",
+      "thumb": "/images/products/wa-0096-thumb.webp"
+    },
+    {
+      "slug": "wa-0097",
+      "file": "IMG-20260929-WA0097.jpg",
+      "kind": "product",
+      "width": 1600,
+      "height": 1600,
+      "path": "/images/products/wa-0097.webp",
+      "thumb": "/images/products/wa-0097-thumb.webp"
+    },
+    {
+      "slug": "wa-0098",
+      "file": "IMG-20260929-WA0098.jpg",
+      "kind": "product",
+      "width": 900,
+      "height": 1600,
+      "path": "/images/products/wa-0098.webp",
+      "thumb": "/images/products/wa-0098-thumb.webp"
+    },
+    {
+      "slug": "wa-0099",
+      "file": "IMG-20260929-WA0099.jpg",
+      "kind": "product",
+      "width": 1086,
+      "height": 1448,
+      "path": "/images/products/wa-0099.webp",
+      "thumb": "/images/products/wa-0099-thumb.webp"
+    },
+    {
+      "slug": "wa-0100",
+      "file": "IMG-20260929-WA0100.jpg",
+      "kind": "product",
+      "width": 1125,
+      "height": 1144,
+      "path": "/images/products/wa-0100.webp",
+      "thumb": "/images/products/wa-0100-thumb.webp"
+    },
+    {
+      "slug": "wa-0101",
+      "file": "IMG-20260929-WA0101.jpg",
+      "kind": "product",
+      "width": 853,
+      "height": 1280,
+      "path": "/images/products/wa-0101.webp",
+      "thumb": "/images/products/wa-0101-thumb.webp"
+    },
+    {
+      "slug": "wa-0102",
+      "file": "IMG-20260929-WA0102.jpg",
+      "kind": "product",
+      "width": 1024,
+      "height": 1536,
+      "path": "/images/products/wa-0102.webp",
+      "thumb": "/images/products/wa-0102-thumb.webp"
+    }
+  ]
+}
