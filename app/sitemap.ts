@@ -4,32 +4,43 @@ import { getSettings } from '@/lib/settings';
 
 export const revalidate = 3600;
 
+/** The sitemap must never break a build or a crawl, so DB failures degrade gracefully. */
+const EMPTY = { products: [], categories: [], brands: [], pages: [] } as const;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const settings = await getSettings();
   const base = settings.siteUrl.replace(/\/$/, '');
 
-  const [products, categories, brands, pages] = await Promise.all([
-    prisma.product.findMany({
-      where: { status: 'ACTIVE' },
-      select: { slug: true, updatedAt: true, isFeatured: true },
-      take: 5000,
-    }),
-    prisma.category.findMany({
-      where: { isActive: true },
-      select: { slug: true, updatedAt: true },
-      take: 500,
-    }),
-    prisma.brand.findMany({
-      where: { isActive: true },
-      select: { slug: true, updatedAt: true },
-      take: 500,
-    }),
-    prisma.page.findMany({
-      where: { isPublished: true },
-      select: { slug: true, updatedAt: true },
-      take: 200,
-    }),
-  ]);
+const { products, categories, brands, pages } = await (async () => {
+  try {
+    const [productRows, categoryRows, brandRows, pageRows] = await Promise.all([
+      prisma.product.findMany({
+        where: { status: 'ACTIVE' },
+        select: { slug: true, updatedAt: true, isFeatured: true },
+        take: 5000,
+      }),
+      prisma.category.findMany({
+        where: { isActive: true },
+        select: { slug: true, updatedAt: true },
+        take: 500,
+      }),
+      prisma.brand.findMany({
+        where: { isActive: true },
+        select: { slug: true, updatedAt: true },
+        take: 500,
+      }),
+      prisma.page.findMany({
+        where: { isPublished: true },
+        select: { slug: true, updatedAt: true },
+        take: 200,
+      }),
+    ]);
+    return { products: productRows, categories: categoryRows, brands: brandRows, pages: pageRows };
+  } catch (error) {
+    console.error('[sitemap] database unavailable, serving static routes only:', error);
+    return EMPTY;
+  }
+})();
 
   const now = new Date();
 
